@@ -10,6 +10,7 @@ var signBtn = document.querySelector('#signBtn');
 var login = document.getElementById('login');
 var welcame = document.getElementById('Welcame');
 var inValid =document.getElementById("inValid");
+var btnLogIn =document.getElementById("logBtn");
 
 
 // ------------------------------------------
@@ -22,6 +23,10 @@ sign.addEventListener('click', function (eventInfo) {
 signBtn.addEventListener('click', function(eventInfo) {
     inputSign();
     
+})
+btnLogIn.addEventListener('click',function(enentInfo){
+    loginGroup.style.display = 'block';
+    signupGroup.style.display = 'none';
 })
 // ------------------------------------------
 var creat = [];
